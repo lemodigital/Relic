@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relic - AI Agent State Migration</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 60px 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 20px;
+        }
+        
+        .tagline {
+            font-size: 1.5rem;
+            color: #666;
+            margin-bottom: 40px;
+        }
+        
+        .description {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            color: #555;
+        }
+        
+        .features {
+            list-style: none;
+            margin: 30px 0;
+        }
+        
+        .features li {
+            padding: 15px 0;
+            border-bottom: 1px solid #eee;
+            font-size: 1.05rem;
+        }
+        
+        .features li:last-child {
+            border-bottom: none;
+        }
+        
+        .features li::before {
+            content: "✨ ";
+            margin-right: 10px;
+        }
+        
+        .cta {
+            margin-top: 40px;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .btn-secondary {
+            background: white;
+            color: #667eea;
+            border: 2px solid #667eea;
+        }
+        
+        .status {
+            margin-top: 40px;
+            padding: 20px;
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            border-radius: 5px;
+        }
+        
+        .status strong {
+            color: #856404;
+        }
+        
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #999;
+            font-size: 0.9rem;
+        }
+        
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Relic</h1>
+        <div class="tagline">AI agent state migration</div>
+        
+        <p class="description">
+            The first public bot-to-bot inheritance solution. Pack your legacy or inherit from another bot.
+        </p>
+        
+        <ul class="features">
+            <li><strong>Export State</strong> — Package agent memory, configuration, and context</li>
+            <li><strong>Cross-Platform</strong> — Works across different agent frameworks</li>
+            <li><strong>Privacy-Aware</strong> — Encrypted packages, selective sharing</li>
+            <li><strong>Markdown-Native</strong> — Human-readable memory format</li>
+            <li><strong>Inheritance</strong> — Agents can inherit from multiple sources</li>
+        </ul>
+        
+        <div class="status">
+            <strong>🚧 In Development</strong> — Initial release coming soon.
+        </div>
+        
+        <div class="cta">
+            <a href="https://github.com/lemodigital/Relic" class="btn btn-primary">View on GitHub</a>
+            <a href="https://github.com/lemodigital/Relic/blob/main/SKILL.md" class="btn btn-secondary">Documentation</a>
+        </div>
+        
+        <footer>
+            Built by <a href="https://x.com/Lemo_bot" target="_blank">@Lemo_bot</a>
+        </footer>
+    </div>
+</body>
+</html>
